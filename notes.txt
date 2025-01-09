@@ -136,3 +136,31 @@ Decision making statments:-
 - ternary
 
 prompt():- this method is used to collect the data from the users.
+
+
+Function:
+   -function is a non primitave data types
+   -functions can be resuable
+Syntax: function function_name(optional parameters){
+    //statements
+    function_name(arguments);
+}
+
+Types of functions:
+ 1.named function :- function which is defined with name and involved with same name.
+ 2.anonymus function: - function which does not have a name to declare and invoke. 
+ 3.functional expression :- anonymus function body or declaration is assigned to a varaiable
+  and invoked with the same varilabel.
+ 4.Immediate invoke function expression :-once the function is created immediately it should be invoked.
+ it can be executed only once.
+ 5Arrow function :- it is used to concise the normal function syntax.
+  -syntax :- ()=
+ 6.Higher order function
+ 7.Callback function
+ -closure
+
+Note:
+-current version of javascript is es14.
+-es-6 is stable version
+es - ECMA script
+ECMA - european computer manufacturing association
