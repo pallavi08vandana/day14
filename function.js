@@ -47,3 +47,49 @@
 
 // }
 // x();
+
+//! return keyword
+// function demo(a,b){
+//     return a+b; ///explict return
+// }
+// let x = demo(5,5);
+// console.log(x);
+
+// let y = (a,b) => a+b;  ///implicit return
+// let a =y(10,20);
+// console.log(a);
+
+// let z = (a,b)=>{return a+b};
+// let b = z(10,100);
+// console.log(b);
+
+// //! Higher order function
+//  function hof(a){
+//     return a;
+//  };
+// let x = hof("vikas");
+// console.log(x);
+
+// function parent(callback){
+//     return callback;
+// }
+// let x = parent(add(5,5));
+// console.log(x);
+
+// function add(a,b){
+//     return a+b;
+// }
+
+//! closure
+var a = 100;
+let b="Hello";
+function x(){
+    var user = "Pallavi";
+   let company = "Google";
+    const sal = 123455;
+    console.log(user);
+    console.log(company);
+    console.log(sal);
+    console.log(a, b);
+};
+x();

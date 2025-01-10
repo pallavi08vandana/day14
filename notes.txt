@@ -155,12 +155,17 @@ Types of functions:
  it can be executed only once.
  5Arrow function :- it is used to concise the normal function syntax.
   -syntax :- ()=
- 6.Higher order function
- 7.Callback function
- -closure
+ 6.Higher order function :- a function which accepts another function as a argument.
+ 7.Callback function :- it is a function which is passed as an argument to another function
+ 
+ -closure :- it is a memory where functions are bundled together/ functions are nested eachother  
+ by giving accessability the inner most function to acees the variable of the outermost function
 
 Note:
 -current version of javascript is es14.
 -es-6 is stable version
 es - ECMA script
 ECMA - european computer manufacturing association
+
+what is return keyword?
+--return keyword is used to return the expressions,variables,
