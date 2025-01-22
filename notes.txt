@@ -216,6 +216,6 @@ syntax :- setInterval(callbackfn, timeout);
       --the actual way of executing the promise is instance methods,
          1.then() :- it is used to execute fulfilled state
          2.catch() :- it is used to execute rejected state
-         3.finally() :-once promise is settled
+         3.finally() :-once promise is settled wheater is failure or succesfulit prints
 .async & await
   note :-  by default , javascript is synchronous(single thread).
