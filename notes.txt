@@ -217,5 +217,43 @@ syntax :- setInterval(callbackfn, timeout);
          1.then() :- it is used to execute fulfilled state
          2.catch() :- it is used to execute rejected state
          3.finally() :-once promise is settled wheater is failure or succesfulit prints
-.async & await
+.async & await :-
+
+async :- async keyword is used to convert synchronous function into Asynchronous funactio and start to execute the promise.
+
+await :- await keyword is used to make the function to wait untill the promise completes.
   note :-  by default , javascript is synchronous(single thread).
+
+  DOM :- 
+
+  -DOM stands for document object model.
+  -DOM is used to add, remove , update to content in the html document.
+  -DOM is used to manipulate the content in the html document.
+
+
+  DOM methods :-
+  ***************
+
+  1.document.getElementsById(""):-It is used to select the html element based on"id attribute" value.
+2.document.getElementsByClassName("");It is used to select the html element based on "class attribute"
+3.document.getElementsByTagName(""):-it is used to select html element based on tag elements.
+4.document.getElementsByName(""):-it is used to select html element based on name elements.
+--these below methods are selected based on css elements.
+5.document.querySelector("#id"):-it will select single el.ements
+6.document.querySelectorAll(".class"):-it will select multiple elements
+
+innerText:-It is a property used to manipulate the plaintext.
+
+Events in DOM:
+****************
+-Events are nothing but actions performed on html elements.
+-Events are of click events,mouse events,key events.
+
+click events:=onclivk,onblclcick,onsubmit,onchange.
+mouse events:mouseover,mouseleave.
+keyevents:-keydown,keyup,keypress(depricated).
+
+
+dynamic creation of html element from javascript :-
+
+ - to create dynamic element in javascript we have a method called as "document.createElement

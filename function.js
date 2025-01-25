@@ -80,16 +80,16 @@
 //     return a+b;
 // }
 
-//! closure
-var a = 100;
-let b="Hello";
-function x(){
-    var user = "Pallavi";
-   let company = "Google";
-    const sal = 123455;
-    console.log(user);
-    console.log(company);
-    console.log(sal);
-    console.log(a, b);
+// //! closure
+// var a = 100;
+// let b="Hello";
+// function x(){
+//     var user = "Pallavi";
+//    let company = "Google";
+//     const sal = 123455;
+//     console.log(user);
+//     console.log(company);
+//     console.log(sal);
+//     console.log(a, b);
 };
 x();
