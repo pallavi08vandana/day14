@@ -91,10 +91,10 @@
 // demo()
 
 
-async function  fetchUsers() {
-    let response = await fetch("https://jsonplaceholder.typicode.com/users");
-    let data =await response.json();
-    console.log(data);
+// async function  fetchUsers() {
+//     let response = await fetch("https://jsonplaceholder.typicode.com/users");
+//     let data =await response.json();
+//     console.log(data);
     
-}
-fetchUsers();
+// }
+// fetchUsers();

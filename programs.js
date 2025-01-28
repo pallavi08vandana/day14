@@ -17,16 +17,16 @@
 //     document.write("<br>")
 // }
 
-for (let i=1;i<6;i++){
-    for (let j=1;j<=6;j++){
-        if(i==j || i+j==6){
-            document.writeln("*")
-        }else{
-            document.writeln("&nbsp;&nbsp;&nbsp")
-        }
+// for (let i=1;i<6;i++){
+//     for (let j=1;j<=6;j++){
+//         if(i==j || i+j==6){
+//             document.writeln("*")
+//         }else{
+//             document.writeln("&nbsp;&nbsp;&nbsp")
+//         }
         
-    }
-    document.write("<br>")
+//     }
+//     document.write("<br>")
 }
 
 
